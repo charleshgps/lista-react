@@ -5,11 +5,12 @@ const Task = ({ task, handleTaskClick }) => {
   return (
     <div
       className="task-container"
-      style={task.completed ? { borderLeft: "6px solid chartreuse" } : {}}
+      style={task.completed ? { borderLeft: "6px solid #ccff00" } : {}}
     >
       {task.title}
     </div>
   );
+  
   // return <div className="task-container">{task.title}</div>;
 };
 

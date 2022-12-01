@@ -1,7 +1,7 @@
 import React from "react";
 
 import Task from "./Task";
-const Tasks = ({ tasks,handleTaskClick }) => {
+const Tasks = ({ tasks, handleTaskClick }) => {
   return (
     <>
       {tasks.map((task) => (
