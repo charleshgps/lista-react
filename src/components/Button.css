@@ -2,11 +2,19 @@
     background-color: #ccff00;
     height: 40px;
     padding: 0 10px;
-    border-radius: 5px;
+    border-radius: 50px;
     width: 100%;
     font-size: 16px;
     color: #1f1f1f;
     font-weight: bold;
     cursor: pointer;
-    border: none;
+    border: 5%;
+    transition: all 1.0s ease;
+}
+
+.button:hover {
+    background-color: #1f1f1f;
+    color: #ccff00;
+    border: 5%;
+    border-color: #ccff00;
 }
