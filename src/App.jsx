@@ -29,7 +29,7 @@ const App = () => {
       const { data } = await axios.get(
         "http://jsonplaceholder.cypress.io/todos?_limit=10"
       );
-      setTasks(data)
+      setTasks(data);
     };
     fetchTasks();
   }, []);
