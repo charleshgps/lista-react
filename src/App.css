@@ -3,7 +3,9 @@
     margin: 30px auto;
     overflow: auto;
     min-height: 300px;
-    border: 5px solid #ccff00;
+    border: 5px inset #CCFF00;
+    border-radius: 40px;
+    /* border: 5px solid #ccff00; */
     padding: 30px;
     border-radius: 10px;
 }
